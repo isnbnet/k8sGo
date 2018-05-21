@@ -64,7 +64,6 @@ func JWTLogin() gin.HandlerFunc {
 }
 
 func JWTAuth() gin.HandlerFunc {
-
 	return func(c *gin.Context) {
 		token := c.DefaultQuery("token", "")
 
