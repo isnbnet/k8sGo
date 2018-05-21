@@ -79,7 +79,7 @@ func main() {
 
 	}
 
-	r.Run("0.0.0.0:7005") // listen and serve on 0.0.0.0:8080
+	r.Run("0.0.0.0:80") // listen and serve on 0.0.0.0:8080
 
 	// RedisTest()
 }
