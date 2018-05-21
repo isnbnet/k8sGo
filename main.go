@@ -11,7 +11,7 @@ import (
 	"github.com/DeanThompson/ginpprof"
 	_ "github.com/denisenkom/go-mssqldb"
 	"github.com/gin-gonic/gin"
-	_ "github.com/mattn/go-oci8"
+	//	_ "github.com/mattn/go-oci8"
 )
 
 type result struct {
